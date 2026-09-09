@@ -1,0 +1,12 @@
+[
+  {
+    "query": "wireless headphones",
+    "productName": "Wireless Headphones",
+    "expectedHomeHeading": "Welcome"
+  },
+  {
+    "query": "travel mug",
+    "productName": "Insulated Travel Mug",
+    "expectedHomeHeading": "Welcome"
+  }
+]
