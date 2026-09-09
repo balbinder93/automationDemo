@@ -1,0 +1,5 @@
+# System properties override these documented defaults. Do not store secrets here.
+framework.base-url=https://example.test
+framework.browser=chrome
+framework.headless=true
+framework.explicit-wait=10

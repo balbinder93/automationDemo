@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Framework foundation" parallel="false">
+    <listeners>
+        <listener class-name="framework.listeners.FrameworkTestListener"/>
+    </listeners>
+    <test name="Unit tests">
+        <classes>
+            <class name="framework.config.FrameworkConfigurationTest"/>
+            <class name="framework.config.DriverConfigTest"/>
+            <class name="framework.data.DataReaderTest"/>
+            <class name="tests.ui.DriverSmokeTest"/>
+            <class name="tests.ui.EcommerceHappyPathTest"/>
+            <class name="tests.ui.EcommerceProductDataDrivenTest"/>
+        </classes>
+    </test>
+</suite>
